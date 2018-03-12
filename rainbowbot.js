@@ -64,7 +64,7 @@ B0 = Math.round((B1 + m) * 255);
 
 console.log("color","dec:" + col + " / H:" + H + " S:" + S + " L:" + L + " / R:"+ R0 + " G:" + G0 + " B:" + B0)
 col = Math.round(R0 * Math.pow(256,2) + G0 * 256 + B0);
-bot.guilds.get("").roles.find('name',"Rainbow").setColor(col);
+bot.guilds.get(process.env.SERVER_ID).roles.find('name',"Rainbow").setColor(col);
 
 
 })

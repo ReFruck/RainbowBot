@@ -1,0 +1,12 @@
+{
+  "name": "rainbowbot",
+  "description": "Rainbow bot",
+  "version": "0.0.0",
+  "main": "rainbowbot.js",
+  "scripts": {
+    "start": "node rainbowbot.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  }
+}
